@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body { font-family: 'Roboto', sans-serif;}
+
+a {
+    text-decoration: none; 
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0px;
+}
+
+header div { 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+      ), url(../img/lemon-pie.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    color: white);
+    padding-top: 250px;
+    margin-right: 20px;
+}
+
+main, footer {
+    color: rgb(60, 58, 58);
+}
+
+h1, div p {color:white;}
+
+h1 {letter-spacing: 2px; font-size: 35px;}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+footer { 
+    background-color: rgb(194, 191, 191);
+    text-align: center;
+    padding-top: 2px; 
+    padding-bottom: 2px;
+    font-weight: 300;
+}
+
+.ingredientes {
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+i {margin: 10px;}
+.icono2 {padding-left: 15px;}
